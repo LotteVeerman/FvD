@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  Surface laag
+  Responsive
  
 </details>
 
@@ -36,7 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.greetz.nl/nl/
+  https://nl.gymshark.com/
   
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
