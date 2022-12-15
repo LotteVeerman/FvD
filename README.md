@@ -219,7 +219,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Op deze afbeelding die je het verschil tussen de echte website (links) en mijn website (rechts). Je ziet eigenlijk geen verschil en dat was leuk om te zo maken.
 
   <img src="readme-images/wishlist-before.png" width="375px" alt="wishlist-before">
-  <img src="readme-images/wistlist-after.png" width="375px" alt="wishlist-after">
+  <img src="readme-images/wishlist-after.png" width="375px" alt="wishlist-after">
   Hier zie je het verschil tussen de favorieten knop wanneer je hem nog niet hebt aangeklikt en wanneer je hem wel hebt aangeklinkt. Hier zit een transision in en de source van het hartje past zich aan in je javascript.
 
 
@@ -260,7 +260,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   5. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
   Deze bron heb ik gebruikt voor de details in mijn footer en op de detail pagina.
-  
+
   6. bron van dlo voor het menu
   Deze bron kan ik niet meer vinden
 
