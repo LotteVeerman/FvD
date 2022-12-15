@@ -180,26 +180,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Tijdens dit voortganggesprek zijn we het beoordelingsformulier helemaal langs gegaan. Dit was erg fijn om even te zien hoe ver ik was en waar ik aankomende week nog extra op moet gaan letten.
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  Als eerste ben ik even door mijn website heen gegaan om te laten zien hoe ver ik was op dat moment. Ik had ten opzichte van de week daarvoor een hoop gedaan. Het menu en de footer waren helemaal af en werkend. Ik moest nog een paar kleine dingetjes fixen op de eerste pagina en dan zou ik kunnen beginnen met de tweede pagina. 
+  Wat kwam er uit het voortgang gesprek:
+  - Ik moet nog even letten op de toegankelijkheid. Die klopte nog niet helemaal.
+  - Ik heb vijf verschillende dingen uit de surface plane verwekt in mijn website: 
+    - Animatie in menu
+    - Video
+    - Dom manipulatie
+    - Advanced positioning
+    - Toetsenbord
+  - Ook moet ik mijn bronnen nog even goed opschrijven in de README.
 
 </details>
 
@@ -213,8 +207,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  <img src="readme-images/screenshot-homepage.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screenshot-detailpagina.png" width="375px" alt="uitomst opdracht 1">
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
@@ -239,8 +233,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://www.geeksforgeeks.org/how-to-preview-image-on-click-in-gallery-view-using-html-css-and-javascript/
+
+  2. https://codepen.io/shooft/pen/BarqVdR?editors=0110
+
 
 </details>
