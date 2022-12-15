@@ -1,51 +1,29 @@
 // JavaScript Document
 
 
-/******************************/
-/* menu openen de MENU button */
-/******************************/
-
-
-// stap 1: zoek de menu-button op en sla die op in een variabele
+// menu openen met hamburger button
 var openButton = document.querySelector("header > button");
 
-// stap 2: laat de menu-button luisteren naar kliks en voer dan een functie uit
 openButton.addEventListener("click", openMenu);
 
-// stap 3: voeg in de functie een class toe aan de nav
 function openMenu() {  
-  // zoek de nav op
   var deNav = document.querySelector("nav");
-  // voeg class toe aan nav
   deNav.classList.add("toonMenu");
 }
 
 
-
-
-/************************************/
-/* menu sluiten met de sluit button */
-/************************************/
-
-
-// stap 1 - zoek sluiten button op
+// menu sluiten met de sluit button 
 var sluitButton = document.querySelector("nav button");
 
-// stap 2 - laat die button luisteren naar kliks
 sluitButton.addEventListener("click", sluitMenu);
 
-// stap 3 - in de functie verwijder de class van de nav
 function sluitMenu() {
   var deNav = document.querySelector("nav");
   deNav.classList.remove("toonMenu");
 }
 
 
-
-
-/**********************************/
-/* bonus: menu sluiten met escape */
-/**********************************/
+// menu sluiten met escape 
 window.addEventListener("keydown", handleKeydown);
 
 function handleKeydown(event) {
@@ -57,8 +35,8 @@ function handleKeydown(event) {
 
 
 
+// tabjes in het menu
 function openTab(evt, tabName) {
-    // Declare all variables
     var i, tabcontent, tablinks;
   
     // Get all elements with class="tabcontent" and hide them
@@ -80,3 +58,136 @@ function openTab(evt, tabName) {
 
   // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+
+
+
+
+// fotogallerij detail pagina
+function changeFoto(fotoSrc) {
+  document.getElementById('main').src = fotoSrc;
+  if (fotoSrc.includes("images/foto19-mobile.jpg")){
+    fotoIndex = 1;
+    return false;
+  }
+  if (fotoSrc.includes("images/foto20-mobile.jpg")){
+    fotoIndex = 2;
+    return false;
+  }
+  if (fotoSrc.includes("images/foto21-mobile.jpg")){
+    fotoIndex = 3;
+    return false;
+  }
+  if (fotoSrc.includes("images/foto22-mobile.jpg")){
+    fotoIndex = 4;
+    return false;
+  }
+  if (fotoSrc.includes("images/foto23-mobile.jpg")){
+    fotoIndex = 5;
+    return false;
+  }
+  if (fotoSrc.includes("images/foto24-mobile.jpg")){
+    fotoIndex = 6;
+    return false;
+  }
+  if (fotoSrc.includes("images/foto25-mobile.jpg")){
+    fotoIndex = 7;
+    return false;
+  }
+}
+
+
+
+
+let fotoIndex = 1;
+
+function linksaf() {
+  if (fotoIndex == 1) {
+    document.getElementById('main').src = "images/foto25-mobile.jpg";
+    fotoIndex = 7;
+    return false;
+  }
+  if (fotoIndex == 2) {
+    document.getElementById('main').src = "images/foto19-mobile.jpg";
+    fotoIndex = 1;
+    return false;
+  }
+  if (fotoIndex == 3) {
+    document.getElementById('main').src = "images/foto20-mobile.jpg";
+    fotoIndex = 2;
+    return false;
+  }
+  if (fotoIndex == 4) {
+    document.getElementById('main').src = "images/foto21-mobile.jpg";
+    fotoIndex = 3;
+    return false;
+  }
+  if (fotoIndex == 5) {
+    document.getElementById('main').src = "images/foto22-mobile.jpg";
+    fotoIndex = 4;
+    return false;
+  }
+  if (fotoIndex == 6) {
+    document.getElementById('main').src = "images/foto23-mobile.jpg";
+    fotoIndex = 5;
+    return false;
+  }
+  if (fotoIndex == 7) {
+    document.getElementById('main').src = "images/foto24-mobile.jpg";
+    fotoIndex = 6;
+    return false;
+  }
+}
+
+function rechtsaf() {
+  if (fotoIndex == 1) {
+    document.getElementById('main').src = "images/foto20-mobile.jpg";
+    fotoIndex = 2;
+    return false;
+  }
+  if (fotoIndex == 2) {
+    document.getElementById('main').src = "images/foto21-mobile.jpg";
+    fotoIndex = 3;
+    return false;
+  }
+  if (fotoIndex == 3) {
+    document.getElementById('main').src = "images/foto22-mobile.jpg";
+    fotoIndex = 4;
+    return false;
+  }
+  if (fotoIndex == 4) {
+    document.getElementById('main').src = "images/foto23-mobile.jpg";
+    fotoIndex = 5;
+    return false;
+  }
+  if (fotoIndex == 5) {
+    document.getElementById('main').src = "images/foto24-mobile.jpg";
+    fotoIndex = 6;
+    return false;
+  }
+  if (fotoIndex == 6) {
+    document.getElementById('main').src = "images/foto25-mobile.jpg";
+    fotoIndex = 7;
+    return false;
+  }
+  if (fotoIndex == 7) {
+    document.getElementById('main').src = "images/foto19-mobile.jpg";
+    fotoIndex = 1;
+    return false;
+  }
+}
+
+// wishlist knop
+function wishlist(){
+  document.getElementById('wishlist').classList.toggle("liked");
+  document.getElementById("textbutton").innerHTML = "VERWIJDER VAN WISHLIST";
+
+  if (document.getElementById('heart').src.includes("images/heart-line.svg")) {
+    document.getElementById('heart').src = "/images/heart-full.svg";
+    return false;
+  }
+  if (document.getElementById('heart').src.includes("images/heart-full.svg")) {
+    document.getElementById('heart').src = "/images/heart-line.svg";
+    return false;
+  }
+}

@@ -211,15 +211,28 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/screenshot-detailpagina.png" width="375px" alt="uitomst opdracht 1">
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  De opbouw van de twee pagina's ging echt super goed. Ik vond dat gedeelte ook leuk om te doen. Het positioneren van dingen en het zo hetzelfde mogelijk maken als de orginele website was een uitdaging soms maar is wel gelukt.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Tijdens het maken van deze pagina's heb ik weer zoveel bij geleerd. Ik had al eerder gewerkt met flexbox maar niet in de mate waarin ik het nu heb gebruikt. Ik wist niet dat je dit er allemaal mee kon doen. Ook heb ik veel geleerd over Javascript. Ik heb veel geprobeerd en geexperimenteerd en ook vaak tot conclusies gekomen dat ik het moet loslaten en iets anders moet proberen. Maar dit hoort ook bij het leerproces natuurlijk. Ik heb het menu met javascript gemaakt, de tabjes in het menu, de fotogallerij en een micro animatie van de wishlist knop. 
+
+  <img src="readme-images/voorbeeld1.png" width="375px" alt="voorbeeld1">
+  Op deze afbeelding die je het verschil tussen de echte website (links) en mijn website (rechts). Je ziet eigenlijk geen verschil en dat was leuk om te zo maken.
+
+  <img src="readme-images/wishlist-before.png" width="375px" alt="wishlist-before">
+  <img src="readme-images/wistlist-after.png" width="375px" alt="wishlist-after">
+  Hier zie je het verschil tussen de favorieten knop wanneer je hem nog niet hebt aangeklikt en wanneer je hem wel hebt aangeklinkt. Hier zit een transision in en de source van het hartje past zich aan in je javascript.
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Veel dingen vond ik lastig maar het moeilijkste wat ik heb gemaakt is de fotogallerij op de detailpagina. Hier kun je doormiddel van op de pijltje klikken en door de foto's zelf sliden en erop klikken navigeren naar de volgende afbeelding. Dit was een grote uitdaging met javascript. Ik heb hier heel lang aan gezeten en overal en nergens stukjes code opgezocht. Uiteindlijk is dit wel gelukt en daar ben ik wel trots op. 
+  Iets wat mij niet is gelukt is het slide effect van de fotogallerij zoals dat is gemaakt op de orginele webiste. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Als ik meer tijd had gehad had ik nog meer micro animatie willen maken en een darkmode versie van deze website willen maken zodat de gebruiker kan kiezen. 
+
+  <img src="readme-images/fotogallerij.png" width="375px" alt="voorbeeld2">
+  Hierboven zie je de fotogallerij waar ik het over had. 
+
+
 </details>
 
 
@@ -234,8 +247,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
   1. https://www.geeksforgeeks.org/how-to-preview-image-on-click-in-gallery-view-using-html-css-and-javascript/
+  Deze bron heb ik gebruikt voor het maken van de fotogallerij.  
 
   2. https://codepen.io/shooft/pen/BarqVdR?editors=0110
+  Deze bron heb ik gebruikt voor het maken van de wishlist knop.
+
+  3. https://codepen.io/shooft/pen/VwXXNea
+  Deze bron heb ik gebruikt voor alle flexbox dingen die ik niet wist of begreep.
+
+  4. https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tabs
+  Deze bron heb ik gebruikt voor de tabjes in mijn menu
+
+  5. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
+  Deze bron heb ik gebruikt voor de details in mijn footer en op de detail pagina.
+  
+  6. bron van dlo voor het menu
+  Deze bron kan ik niet meer vinden
 
 
 </details>
